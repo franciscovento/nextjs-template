@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Template de Next.js - Typescript
 
-## Getting Started
+## Descripcion
 
-First, run the development server:
+Este template de Next.js ofrece una configuración sólida y preconfigurada para iniciar rápidamente tus proyectos. Incluye una serie de herramientas y scripts para garantizar un desarrollo eficiente y de alta calidad.
+
+## Instalación y correr entorno de desarrollo
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/franciscovento/nextjs-template.git
+
+  cd nextjs-template
+
+  npm install
+
+  npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Características principales
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#### Linter y Formateador:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- ESLint: Configuraciones predefinidas para asegurar la calidad del código.
+- Prettier: Formatea el código automáticamente para una mayor consistencia.
+- Husky: Garantiza que el código esté linteado y formateado correctamente antes de cada commit y push, además de correr los test y generan un build para prevenir errores.
+- Commitlint: Impone convenciones de commit para mantener un historial de cambios claro y conciso.
 
-## Learn More
+#### Testing:
 
-To learn more about Next.js, take a look at the following resources:
+- Vitest: Framework de pruebas unitarias de componentes y funciones.
+- Cobertura de código: Genera reportes de cobertura para evaluar el coverage de los tests.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Gestión de dependencias:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- npm: Gestor de paquetes predeterminado.
+- Node.js 20.17.0: Versión específica de Node.js para un entorno de desarrollo estable.
 
-## Deploy on Vercel
+### Convenciones para commit
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Utiliza el archivo **commitlint.config.js** para ver los prefijos de commit permitidos.
