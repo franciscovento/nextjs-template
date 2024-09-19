@@ -21,6 +21,7 @@ Este template de Next.js ofrece una configuración sólida y preconfigurada para
 #### Linter y Formateador:
 
 - ESLint: Configuraciones predefinidas para asegurar la calidad del código.
+- LintStaged: Utilizado para correr el linter solo en archivos modificados.
 - StyleLint: Linter para asegurar calidad de código css.
 - Prettier: Formatea el código automáticamente para una mayor consistencia.
 - Husky: Garantiza que el código esté linteado y formateado correctamente antes de cada commit y push, además de correr los test y generan un build para prevenir errores.
